@@ -1,0 +1,14 @@
+# create the app
+npx create-next-app@latest rydercup-v1 --ts --app --eslint
+cd rydercup-v1
+
+# install supabase client (we'll use it)
+npm i @supabase/supabase-js
+
+# initialize git and push to your empty GitHub repo
+git init
+git add .
+git commit -m "Initial Next.js app"
+git branch -M main
+git remote add origin https://github.com/YOURNAME/YOURREPO.git
+git push -u origin main
